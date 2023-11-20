@@ -56,10 +56,13 @@ local_conf_header:
     "
 
     # Add additional packages
-    IMAGE_INSTALL_append += "openssh mmc-utils solidsense-scripts sudo nano"
+    IMAGE_INSTALL_append += "openssh mmc-utils solidsense-scripts sudo nano tree"
     IMAGE_INSTALL_append += "docker python3-docker-compose u-boot-fw-utils util-linux"
     IMAGE_INSTALL_append += "init-ifupdown ifupdown dhcp-client tcpdump"
     IMAGE_INSTALL_append += "tzdata solidsense-provisioning solidsense-mqtt solidsense-vehicle"
+
+    # Sodira packages
+    IMAGE_INSTALL_append += "sodira-vpn nodejs-npm nodejs glibc-utils sqlite3 gcc g++ make packagegroup-core-buildessential sshpass"
 
     # Factory
     IMAGE_INSTALL_append += "empty picocom"
@@ -69,7 +72,7 @@ local_conf_header:
     IMAGE_INSTALL_append += "nfs-utils modem-gps wirepas-gateway wirepas-gateway-dev dhcp-server bind"
     IMAGE_INSTALL_append += "kura wireless-tools ble-gateway cronie openvpn openssl-bin"
     IMAGE_INSTALL_append += "e2fsprogs-e2fsck e2fsprogs-mke2fs e2fsprogs-tune2fs e2fsprogs-badblocks e2fsprogs-resize2fs"
-    IMAGE_INSTALL_append += "connectd"
+    IMAGE_INSTALL_append += "connectd rs485conf can-utils python-can python-can-j1939"
     #     Debug
     # IMAGE_INSTALL_append += "gdb strace tcpdump"
     #     Java
@@ -99,3 +102,5 @@ local_conf_header:
     PREFERRED_VERSION_python3-pyyaml = "5.1.1"
     PREFERRED_VERSION_protobuf = "3.17.3"
     PREFERRED_VERSION_protobuf-native = "3.17.3"
+    PREFERRED_VERSION_python-can = "3.3.4"
+    PREFERRED_VERSION_python-can-j1939 = "2.0.5"

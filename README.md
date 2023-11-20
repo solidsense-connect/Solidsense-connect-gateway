@@ -135,51 +135,51 @@ Solidsense images path
 After build, all images will be generated in Solidsense-connect-gateway/poky/deploy/Solidsense-{tag}-yyymmdd00:
 
 ```
--rw-r--r-- 1 sdamaj sdamaj     48957 Feb 28 17:44 imx6dl-hummingboard2-emmc-som-v15.dtb
--rw-r--r-- 1 sdamaj sdamaj     48263 Feb 28 17:42 imx6dl-solidsense-in6-a-emmc-som-v15.dtb
--rw-r--r-- 1 sdamaj sdamaj     47935 Feb 28 17:42 imx6dl-solidsense-in6-b-emmc-som-v15.dtb
--rw-r--r-- 1 sdamaj sdamaj     46756 Feb 28 17:42 imx6dl-solidsense-in6-emmc-som-v15.dtb
--rw-r--r-- 1 sdamaj sdamaj     50343 Feb 28 17:42 imx6q-hummingboard2-emmc-som-v15.dtb
--rw-r--r-- 1 sdamaj sdamaj     49500 Feb 28 17:42 imx6q-solidsense-in6-a-emmc-som-v15.dtb
--rw-r--r-- 1 sdamaj sdamaj     49172 Feb 28 17:42 imx6q-solidsense-in6-b-emmc-som-v15.dtb
--rw-r--r-- 1 sdamaj sdamaj     47993 Feb 28 17:42 imx6q-solidsense-in6-emmc-som-v15.dtb
--rw-r--r-- 1 sdamaj sdamaj     62889 Feb 28 17:42 imx8mnc-core-image-minimal-Solidsense-2.1.0-2023022800.manifest
--rw-r--r-- 1 sdamaj sdamaj     72389 Feb 28 17:42 imx8mnc-core-image-minimal-Solidsense-2.1.0-2023022800.manifest.lic
--rw------- 1 sdamaj sdamaj 452254720 Feb 28 17:44 imx8mnc-core-image-minimal-Solidsense-2.1.0-2023022800.mender
--rw-r--r-- 1 sdamaj sdamaj      2284 Feb 28 17:42 imx8mnc-core-image-minimal-Solidsense-2.1.0-2023022800.mender.bmap
--rw-r--r-- 1 sdamaj sdamaj 452253696 Feb 28 17:44 imx8mnc-core-image-minimal-Solidsense-2.1.0-2023022800.mender.unsigned
--rw-r--r-- 1 sdamaj sdamaj 428036882 Feb 28 17:42 imx8mnc-core-image-minimal-Solidsense-2.1.0-2023022800.tar.gz
--rw-r--r-- 1 sdamaj sdamaj     37696 Feb 28 17:42 imx8mn-compact.dtb
--rw-r--r-- 1 sdamaj sdamaj    166642 Feb 28 17:42 in6gq-core-image-minimal-Solidsense-2.1.0-2023022800.manifest
--rw-r--r-- 1 sdamaj sdamaj    185232 Feb 28 17:42 in6gq-core-image-minimal-Solidsense-2.1.0-2023022800.manifest.lic
--rw------- 1 sdamaj sdamaj 446190592 Feb 28 17:44 in6gq-core-image-minimal-Solidsense-2.1.0-2023022800.mender
--rw-r--r-- 1 sdamaj sdamaj      2284 Feb 28 17:42 in6gq-core-image-minimal-Solidsense-2.1.0-2023022800.mender.bmap
--rw-r--r-- 1 sdamaj sdamaj 446189568 Feb 28 17:44 in6gq-core-image-minimal-Solidsense-2.1.0-2023022800.mender.unsigned
--rw-r--r-- 1 sdamaj sdamaj 422406775 Feb 28 17:42 in6gq-core-image-minimal-Solidsense-2.1.0-2023022800.tar.gz
--rw-r--r-- 1 sdamaj sdamaj    170794 Feb 28 17:42 in6gsdl-core-image-minimal-Solidsense-2.1.0-2023022800.manifest
--rw-r--r-- 1 sdamaj sdamaj    189384 Feb 28 17:42 in6gsdl-core-image-minimal-Solidsense-2.1.0-2023022800.manifest.lic
--rw------- 1 sdamaj sdamaj 446174720 Feb 28 17:44 in6gsdl-core-image-minimal-Solidsense-2.1.0-2023022800.mender
--rw-r--r-- 1 sdamaj sdamaj      2284 Feb 28 17:42 in6gsdl-core-image-minimal-Solidsense-2.1.0-2023022800.mender.bmap
--rw-r--r-- 1 sdamaj sdamaj 446173696 Feb 28 17:44 in6gsdl-core-image-minimal-Solidsense-2.1.0-2023022800.mender.unsigned
--rw-r--r-- 1 sdamaj sdamaj 422407779 Feb 28 17:42 in6gsdl-core-image-minimal-Solidsense-2.1.0-2023022800.tar.gz
--rw-r--r-- 1 sdamaj sdamaj    164403 Feb 28 17:42 n6gq-core-image-minimal-Solidsense-2.1.0-2023022800.manifest
--rw-r--r-- 1 sdamaj sdamaj    182961 Feb 28 17:42 n6gq-core-image-minimal-Solidsense-2.1.0-2023022800.manifest.lic
--rw------- 1 sdamaj sdamaj 445673472 Feb 28 17:44 n6gq-core-image-minimal-Solidsense-2.1.0-2023022800.mender
--rw-r--r-- 1 sdamaj sdamaj      2284 Feb 28 17:42 n6gq-core-image-minimal-Solidsense-2.1.0-2023022800.mender.bmap
--rw-r--r-- 1 sdamaj sdamaj 445672448 Feb 28 17:44 n6gq-core-image-minimal-Solidsense-2.1.0-2023022800.mender.unsigned
--rw-r--r-- 1 sdamaj sdamaj 421884976 Feb 28 17:42 n6gq-core-image-minimal-Solidsense-2.1.0-2023022800.tar.gz
--rw-r--r-- 1 sdamaj sdamaj    168555 Feb 28 17:42 n6gsdl-core-image-minimal-Solidsense-2.1.0-2023022800.manifest
--rw-r--r-- 1 sdamaj sdamaj    187113 Feb 28 17:43 n6gsdl-core-image-minimal-Solidsense-2.1.0-2023022800.manifest.lic
--rw------- 1 sdamaj sdamaj 445663744 Feb 28 17:44 n6gsdl-core-image-minimal-Solidsense-2.1.0-2023022800.mender
--rw-r--r-- 1 sdamaj sdamaj      2284 Feb 28 17:43 n6gsdl-core-image-minimal-Solidsense-2.1.0-2023022800.mender.bmap
--rw-r--r-- 1 sdamaj sdamaj 445662720 Feb 28 17:44 n6gsdl-core-image-minimal-Solidsense-2.1.0-2023022800.mender.unsigned
--rw-r--r-- 1 sdamaj sdamaj 421885254 Feb 28 17:43 n6gsdl-core-image-minimal-Solidsense-2.1.0-2023022800.tar.gz
--rw-r--r-- 1 sdamaj sdamaj    176673 Feb 28 17:43 solidsense-core-image-minimal-Solidsense-2.1.0-2023022800.manifest
--rw-r--r-- 1 sdamaj sdamaj    195199 Feb 28 17:44 solidsense-core-image-minimal-Solidsense-2.1.0-2023022800.manifest.lic
--rw------- 1 sdamaj sdamaj 445140992 Feb 28 17:44 solidsense-core-image-minimal-Solidsense-2.1.0-2023022800.mender
--rw-r--r-- 1 sdamaj sdamaj      2284 Feb 28 17:44 solidsense-core-image-minimal-Solidsense-2.1.0-2023022800.mender.bmap
--rw-r--r-- 1 sdamaj sdamaj 445139968 Feb 28 17:44 solidsense-core-image-minimal-Solidsense-2.1.0-2023022800.mender.unsigned
--rw-r--r-- 1 sdamaj sdamaj 421485059 Feb 28 17:44 solidsense-core-image-minimal-Solidsense-2.1.0-2023022800.tar.gz
+-rw-r--r-- 1 sdamaj sdamaj     48957 Oct 17 12:36 imx6dl-hummingboard2-emmc-som-v15.dtb
+-rw-r--r-- 1 sdamaj sdamaj     48263 Oct 17 12:34 imx6dl-solidsense-in6-a-emmc-som-v15.dtb
+-rw-r--r-- 1 sdamaj sdamaj     47935 Oct 17 12:34 imx6dl-solidsense-in6-b-emmc-som-v15.dtb
+-rw-r--r-- 1 sdamaj sdamaj     46756 Oct 17 12:34 imx6dl-solidsense-in6-emmc-som-v15.dtb
+-rw-r--r-- 1 sdamaj sdamaj     50343 Oct 17 12:35 imx6q-hummingboard2-emmc-som-v15.dtb
+-rw-r--r-- 1 sdamaj sdamaj     49500 Oct 17 12:34 imx6q-solidsense-in6-a-emmc-som-v15.dtb
+-rw-r--r-- 1 sdamaj sdamaj     49172 Oct 17 12:34 imx6q-solidsense-in6-b-emmc-som-v15.dtb
+-rw-r--r-- 1 sdamaj sdamaj     47993 Oct 17 12:34 imx6q-solidsense-in6-emmc-som-v15.dtb
+-rw-r--r-- 1 sdamaj sdamaj     66062 Oct 17 12:34 imx8mnc-core-image-minimal-Solidsense-2.1.0-rc3-2023101700.manifest
+-rw-r--r-- 1 sdamaj sdamaj     76282 Oct 17 12:34 imx8mnc-core-image-minimal-Solidsense-2.1.0-rc3-2023101700.manifest.lic
+-rw------- 1 sdamaj sdamaj 490677248 Oct 17 12:36 imx8mnc-core-image-minimal-Solidsense-2.1.0-rc3-2023101700.mender
+-rw-r--r-- 1 sdamaj sdamaj      2284 Oct 17 12:34 imx8mnc-core-image-minimal-Solidsense-2.1.0-rc3-2023101700.mender.bmap
+-rw-r--r-- 1 sdamaj sdamaj 490676224 Oct 17 12:36 imx8mnc-core-image-minimal-Solidsense-2.1.0-rc3-2023101700.mender.unsigned
+-rw-r--r-- 1 sdamaj sdamaj 463284473 Oct 17 12:34 imx8mnc-core-image-minimal-Solidsense-2.1.0-rc3-2023101700.tar.gz
+-rw-r--r-- 1 sdamaj sdamaj     37696 Oct 17 12:34 imx8mn-compact.dtb
+-rw-r--r-- 1 sdamaj sdamaj    170664 Oct 17 12:34 in6gq-core-image-minimal-Solidsense-2.1.0-rc3-2023101700.manifest
+-rw-r--r-- 1 sdamaj sdamaj    189966 Oct 17 12:34 in6gq-core-image-minimal-Solidsense-2.1.0-rc3-2023101700.manifest.lic
+-rw------- 1 sdamaj sdamaj 482910208 Oct 17 12:36 in6gq-core-image-minimal-Solidsense-2.1.0-rc3-2023101700.mender
+-rw-r--r-- 1 sdamaj sdamaj      2284 Oct 17 12:34 in6gq-core-image-minimal-Solidsense-2.1.0-rc3-2023101700.mender.bmap
+-rw-r--r-- 1 sdamaj sdamaj 482909184 Oct 17 12:36 in6gq-core-image-minimal-Solidsense-2.1.0-rc3-2023101700.mender.unsigned
+-rw-r--r-- 1 sdamaj sdamaj 456088557 Oct 17 12:34 in6gq-core-image-minimal-Solidsense-2.1.0-rc3-2023101700.tar.gz
+-rw-r--r-- 1 sdamaj sdamaj    174816 Oct 17 12:34 in6gsdl-core-image-minimal-Solidsense-2.1.0-rc3-2023101700.manifest
+-rw-r--r-- 1 sdamaj sdamaj    194118 Oct 17 12:34 in6gsdl-core-image-minimal-Solidsense-2.1.0-rc3-2023101700.manifest.lic
+-rw------- 1 sdamaj sdamaj 482949632 Oct 17 12:36 in6gsdl-core-image-minimal-Solidsense-2.1.0-rc3-2023101700.mender
+-rw-r--r-- 1 sdamaj sdamaj      2284 Oct 17 12:34 in6gsdl-core-image-minimal-Solidsense-2.1.0-rc3-2023101700.mender.bmap
+-rw-r--r-- 1 sdamaj sdamaj 482948608 Oct 17 12:36 in6gsdl-core-image-minimal-Solidsense-2.1.0-rc3-2023101700.mender.unsigned
+-rw-r--r-- 1 sdamaj sdamaj 456089889 Oct 17 12:34 in6gsdl-core-image-minimal-Solidsense-2.1.0-rc3-2023101700.tar.gz
+-rw-r--r-- 1 sdamaj sdamaj    168587 Oct 17 12:34 n6gq-core-image-minimal-Solidsense-2.1.0-rc3-2023101700.manifest
+-rw-r--r-- 1 sdamaj sdamaj    187889 Oct 17 12:35 n6gq-core-image-minimal-Solidsense-2.1.0-rc3-2023101700.manifest.lic
+-rw------- 1 sdamaj sdamaj 482884096 Oct 17 12:36 n6gq-core-image-minimal-Solidsense-2.1.0-rc3-2023101700.mender
+-rw-r--r-- 1 sdamaj sdamaj      2284 Oct 17 12:34 n6gq-core-image-minimal-Solidsense-2.1.0-rc3-2023101700.mender.bmap
+-rw-r--r-- 1 sdamaj sdamaj 482883072 Oct 17 12:36 n6gq-core-image-minimal-Solidsense-2.1.0-rc3-2023101700.mender.unsigned
+-rw-r--r-- 1 sdamaj sdamaj 456068552 Oct 17 12:35 n6gq-core-image-minimal-Solidsense-2.1.0-rc3-2023101700.tar.gz
+-rw-r--r-- 1 sdamaj sdamaj    172739 Oct 17 12:35 n6gsdl-core-image-minimal-Solidsense-2.1.0-rc3-2023101700.manifest
+-rw-r--r-- 1 sdamaj sdamaj    192041 Oct 17 12:35 n6gsdl-core-image-minimal-Solidsense-2.1.0-rc3-2023101700.manifest.lic
+-rw------- 1 sdamaj sdamaj 482878976 Oct 17 12:37 n6gsdl-core-image-minimal-Solidsense-2.1.0-rc3-2023101700.mender
+-rw-r--r-- 1 sdamaj sdamaj      2284 Oct 17 12:35 n6gsdl-core-image-minimal-Solidsense-2.1.0-rc3-2023101700.mender.bmap
+-rw-r--r-- 1 sdamaj sdamaj 482877952 Oct 17 12:37 n6gsdl-core-image-minimal-Solidsense-2.1.0-rc3-2023101700.mender.unsigned
+-rw-r--r-- 1 sdamaj sdamaj 456068540 Oct 17 12:35 n6gsdl-core-image-minimal-Solidsense-2.1.0-rc3-2023101700.tar.gz
+-rw-r--r-- 1 sdamaj sdamaj    180857 Oct 17 12:35 solidsense-core-image-minimal-Solidsense-2.1.0-rc3-2023101700.manifest
+-rw-r--r-- 1 sdamaj sdamaj    200127 Oct 17 12:36 solidsense-core-image-minimal-Solidsense-2.1.0-rc3-2023101700.manifest.lic
+-rw------- 1 sdamaj sdamaj 482523136 Oct 17 12:37 solidsense-core-image-minimal-Solidsense-2.1.0-rc3-2023101700.mender
+-rw-r--r-- 1 sdamaj sdamaj      2284 Oct 17 12:36 solidsense-core-image-minimal-Solidsense-2.1.0-rc3-2023101700.mender.bmap
+-rw-r--r-- 1 sdamaj sdamaj 482522112 Oct 17 12:37 solidsense-core-image-minimal-Solidsense-2.1.0-rc3-2023101700.mender.unsigned
+-rw-r--r-- 1 sdamaj sdamaj 455698810 Oct 17 12:36 solidsense-core-image-minimal-Solidsense-2.1.0-rc3-2023101700.tar.gz
 
 ```
 
@@ -204,7 +204,7 @@ This is an example how to updating a SolidSense N6 board.
 Download the last N6 image mender on your board and install it following theses commands:
 
 ```
-# mender install https://images.solidsense.io/SolidSense/mender/SolidRun-signed/2.1.0/n6gsdl-core-image-minimal-Solidsense-2.1-rc2-2023011800.mender
+# mender install https://images.solidsense.io/SolidSense/mender/SolidRun-signed/2.1.0-rc3/n6gsdl-core-image-minimal-Solidsense-2.1.0-rc3-2023101700.mender
 # mender -commit
 # /opt/scripts/restart --wipe
 ```
@@ -262,10 +262,10 @@ Images Ready-To-Use
 
 Last images
 -----------
-* `Solidsense-connect N6 dual indoor/outdoor`: n6gsdl-core-image-minimal-Solidsense-2.1-rc2-2023011800.mender
-* `Solidsense-connect N6 quad indoor/outdoor`: n6gq-core-image-minimal-Solidsense-2.1-rc2-2023011800.mender
-* `Solidsense-connect N6 dual insdustrial`: in6gsdl-core-image-minimal-Solidsense-2.1-rc2-2023011800.mender
-* `Solidsense-connect N8 family`: imx8mnc-core-image-minimal-Solidsense-2.1-rc2-2023011800.mender
+* `Solidsense-connect N6 dual indoor/outdoor`: n6gsdl-core-image-minimal-Solidsense-2.1.0-rc3-2023101700.mender
+* `Solidsense-connect N6 quad indoor/outdoor`: n6gq-core-image-minimal-Solidsense-2.1.0-rc3-2023101700.mender
+* `Solidsense-connect N6 dual insdustrial`: in6gsdl-core-image-minimal-Solidsense-2.1.0-rc3-2023101700.mender
+* `Solidsense-connect compact (ex N8)`: imx8mnc-core-image-minimal-Solidsense-2.1.0-rc3-2023101700.mender
 
 Firmware content
 ----------------

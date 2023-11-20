@@ -9,6 +9,7 @@ FILESEXTRAPATHS_prepend := "${THISDIR}/files:"
 SRC_URI = " \
     file://bind9.init \
     file://gpl-2.0.txt \
+    file://check_solidsense.sh \
     git://git@github.com/solidsense-connect/SolidSense-V1.git;protocol=ssh;branch=master;destsuffix=SolidSense-V1;name=SolidSense-V1 \
 "
 SRCREV_SolidSense-V1 = "2ca1c95ebec578d033e2e10e70030349369c49cf"
@@ -22,11 +23,9 @@ inherit systemd
 do_install () {
     install -d ${D}/opt/scripts
     install -d ${D}/opt/SolidSense/bin
-    install -m 0755 ${S-V1}/scripts/check_solidsense.sh ${D}/opt/scripts/check_solidsense
+    install -m 0755  -m 0755 ${WORKDIR}/check_solidsense.sh ${D}/opt/scripts/check_solidsense
     install -m 0755 ${S-V1}/scripts/restart.sh ${D}/opt/scripts/restart
     ln -s /opt/scripts/restart ${D}/opt/SolidSense/bin/restart
-
-    install -m 0755 ${S-V1}/ublox/flash_ublox.sh ${D}/opt/scripts/flash_ublox
 
     install -d ${D}${systemd_unitdir}/system
     install -m 0644 ${S-V1}/scripts/check_solidsense.service ${D}${systemd_unitdir}/system
@@ -50,7 +49,6 @@ FILES_${PN} = " \
     /etc/udev/rules.d/99-power-save.rules \
     /etc/solidsense_device \
     /opt/scripts/check_solidsense \
-    /opt/scripts/flash_ublox \
     /opt/scripts/restart \
     /opt/SolidSense/bin/restart \
 "

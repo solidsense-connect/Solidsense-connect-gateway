@@ -24,6 +24,9 @@ SRC_URI += " \
 	${GITHUB_RAW_URL}/0020-arm64-dts-imx8mn-compact-change-rtc-compatible-strin.patch;name=0020 \
 	${GITHUB_RAW_URL}/0021-Edit-imx8mn-compact-dts-Add-ADIN_PHY-support-aphy-dd.patch;name=0021 \
 	${GITHUB_RAW_URL}/0021-arm64-dts-imx8mn-compact-add-sensors.patch;name=0021-2 \
+	${GITHUB_RAW_URL}/0022-Disable-PHY-ADIN-referance-clock.patch;name=0022 \
+	${GITHUB_RAW_URL}/0023-edit-imx8mn-comapct-dts-decrease-drive-strength-for-.patch;name=0023 \
+	${GITHUB_RAW_URL}/0024-edit-imx8mn-comapct-dts-decrease-drive-strength-for-.patch;name=0024 \
 	file://0001-remove-ublox-reset.patch \
 "
 
@@ -49,3 +52,6 @@ SRC_URI[0019.sha256sum] = "2f327d932d938d192209c5a7fcc612eacd133e3a06f5b95984a63
 SRC_URI[0020.sha256sum] = "811fb1cc7d29be342f739b50a605445bbddfee9f016883650e2f3433626b844d"
 SRC_URI[0021.sha256sum] = "ee01b040c32f08841a784b9a5c935a7ab7cfb25c091526f5f7ec97d0fc54f2f4"
 SRC_URI[0021-2.sha256sum] = "846c083175202b7f4f49215c82a528e691ceeb3e09aeb28999998ae289372aec"
+SRC_URI[0022.sha256sum] = "b9c4c8ad0fe1c796f2d2029c7ad9bc158964b1a5d3b324cd9cf5e061da4490b6"
+SRC_URI[0023.sha256sum] = "b4018c2f292d72c379fafaacd534f69c528980142133f2f15ed6104344c355be"
+SRC_URI[0024.sha256sum] = "df6402b09bd6a131cd1bc435b23a3498af48c375ad143da956ea2220639a2886"

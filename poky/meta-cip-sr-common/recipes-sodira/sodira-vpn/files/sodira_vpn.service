@@ -1,0 +1,17 @@
+[Unit]
+Description=Sodira vpn
+Requires=network.target
+After=network.target
+
+[Service]
+Type=simple
+User=root
+ExecStart=/opt/scripts/start_vpn_config.sh
+Restart=on-failure
+SuccessExitStatus=0
+RestartForceExitStatus=2
+RestartSec=5
+
+[Install]
+WantedBy=multi-user.target
+
