@@ -16,9 +16,9 @@ FILE_WRITE_U_BOOT="${DIR_NAME}/files/write-u-boot"
 UBOOT_IMAGE="u-boot-with-spl.imx"
 UBOOT_IMAGE_URL="https://images.solidsense.io/SolidSense/.create-usb-image/${UBOOT_IMAGE}"
 UBOOT_IMX6_SPL="spl-imx6-sdhc.bin"
-UBOOT_IMX6_SPL_URL="https://images.solid-run.com/IMX6/U-Boot/${UBOOT_IMX6_SPL}"
+UBOOT_IMX6_SPL_URL="https://images.solid-run.com/IMX6/U-Boot/v2018.01/${UBOOT_IMX6_SPL}"
 UBOOT_IMX6_IMG="u-boot-imx6-sdhc.img"
-UBOOT_IMX6_IMG_URL="https://images.solid-run.com/IMX6/U-Boot/${UBOOT_IMX6_IMG}"
+UBOOT_IMX6_IMG_URL="https://images.solid-run.com/IMX6/U-Boot/v2018.01/${UBOOT_IMX6_IMG}"
 UBOOT_IMAGE_IN6="u-boot-with-spl-in6g.imx"
 UBOOT_IMAGE_IN6_URL="https://images.solidsense.io/SolidSense/.create-usb-image/${UBOOT_IMAGE_IN6}"
 WIC_TYPE="n6gsdl"
@@ -134,7 +134,7 @@ END
 	fi
 
 	# loop mount image file
-	sudo kpartx -av "${OUTPUT_IMG}" >/dev/null 2>&1
+	sudo kpartx -av "${OUTPUT_IMG}"
 
 	# mkfs
 	sudo mkfs.ext4 -F -L "${VERSION_BASE}" /dev/mapper/loop0p1 >/dev/null 2>&1
