@@ -94,7 +94,7 @@ local_conf_header:
     # Preferred applications
     PREFERRED_VERSION_kura = "5.1.2"
     KURA_VERSION = "5.1.2"
-    PREFERRED_VERSION_wirepas-gateway = "1.4.2"
+    PREFERRED_VERSION_wirepas-gateway = "1.4.0-pyyaml5.1.1"
     PREFERRED_VERSION_wirepas-messaging = "1.4.0"
     PREFERRED_VERSION_python3-grpcio = "1.22.0"
     PREFERRED_VERSION_python3-protobuf = "3.17.3"
