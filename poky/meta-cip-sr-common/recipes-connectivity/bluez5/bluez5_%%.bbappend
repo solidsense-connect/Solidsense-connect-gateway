@@ -5,7 +5,6 @@ FILESEXTRAPATHS_prepend := "${THISDIR}/files:"
 SRC_URI += " \
     ${@bb.utils.contains('PACKAGECONFIG', 'kura', '', 'file://dbus-bluetooth.conf', d)} \
     file://main.conf \
-    file://0001-use-the-deprecated-name-for-SIOCGSTAMP.patch \
 "
 
 do_install_append () {
